@@ -24,6 +24,9 @@ kubectl apply -f k8s/service.yaml
 
 **[Acessar aplicação rodando com Kubernetes](http://35.226.155.206/)**
 
+### Print da execução (CI) no Cloud Build:
+![CI](/go-hpa.png)
+
 ## 2) Implementando o "hpa"
 Aplicar hpa para o Kubernetes:
 ```
