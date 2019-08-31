@@ -1,11 +1,12 @@
 package main
 
 import (
+	"math"
 	"testing"
 )
 
 func TestCalculo(t *testing.T) {
-	got := calculo(49)
+	got := math.Sqrt(49)
 	want := 7
 
 	if got != want {
